@@ -16,7 +16,7 @@ function displayDogs(dogList) {
   
     for(const dog of first10Data){
         const div=document.createElement('div');
-        div.className="col-lg-3"
+        div.className="col-lg-3";
     
         // console.log(dog);
       div.innerHTML=`
