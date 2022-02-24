@@ -13,7 +13,7 @@ function displayDogs(dogList) {
     const main=document.getElementById('main');
     const first10Data=dogList.slice(10,100);
 
-  
+    
     for(const dog of first10Data){
         const div=document.createElement('div');
         div.className="col-lg-3";
