@@ -8,5 +8,15 @@ function loadDogs() {
 }
 
 function displayDogs(dogList) {
-    console.log(dogList);
+    // console.log(dogList);
+
+    const main=document.getElementById('main');
+    const first10Data=dogList.slice(0,10);
+
+    const div=document.createElement('div');
+
+    for(const dog of first10Data){
+      
+    }
+   
 }
